@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+}
+
+/* Mobile Version */
+
+/* Navbar */
+.navbar {
+    background: white;
+}
+
+.navbar img {
+    margin-top: 10px;
+    height: 33px;
+}
+
+.container h3 {
+    font-size: 15px;
+    margin-right: 260px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.jumbotron .display-4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.jumbotron .lead{
+    color: white;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+/* Deskripsi */
+.isi {
+    margin-top: 50px;
+}
+
+.isi h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.isi p {
+    font-weight: 500;
+    color: black;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.isi img {
+    height: 20px;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Roles */
+.roles {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bawah a{
+    color: black;
+    text-decoration: none;
+}
+
+.role:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #EC2128 ;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+}
+
+.roles h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.roles h3{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* Volunteer */
+
+.volunteer {
+    margin-top: 15px;
+}
+
+.volunteer h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.volunteer h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.volunteer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.volunteer img {
+    margin-left: 50px;
+    height: 330px;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+/* FAQ */
+/* FAQ */
+#faq {
+    background-color: #ffff;
+    padding: 50px 0;
+}
+
+#faq h1 {
+    font-weight: 900;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+.accordion .card {
+    border-radius: 0;
+    background: none;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.accordion .card .card-header {
+    background: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+}
+
+.accordion .card-header h2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.accordion .card-header a {
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+}
+
+.accordion .card-header .btn {
+    color: #0c7f90;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.accordion .card-header i {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 15px;
+    right: 1rem;
+}
+
+.accordion .card-body {
+    color: #666;
+}
+
+h2.pertanyaan {
+    margin-right: 20px;
+}
+
+/* Pertanyaan */
+.question {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.info-question {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;  
+    background-color: white;
+}
+
+.question .ques h4{
+    margin-top: 10px;
+    font-weight: 650;
+    font-size: 23px;
+}
+
+.question .ques p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #7C8087;
+}
+
+.question .ques img{
+    height: 25px;
+    width: 25px;
+}
+
+.tombol {
+    border-radius: 40px;
+    font-weight: 700;
+    background-color: #52CE5F;
+    width: 150px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+footer {
+    background-image: url(img/background4-removebg-preview.png);
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 200px;
+    color: white;
+    margin-top: -100px;
+    background-size: cover;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+} 
+.footer-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer-content img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+}
+
+.footer-content .gambar {
+    margin-top: 40px;
+}
+
+.footer-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.footer-content .bawah-footer img{
+    font-size: 23px;
+    margin-top: 30px;
+    width: 296px;
+    height: 90px;
+}
+
+.footer-botton h5{
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* Desktop Version */
+@media (min-width: 992px) {  
+    
+    /* Navbar */
+    .navbar {
+        background: white;
+    }
+
+    .navbar img {
+        margin-top: 10px;
+        height: 45px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+        color: black;
+        font-weight: 550;
+        margin-top: 5px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #EC2128 ;
+        width: 40%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+
+    .container h3 {
+        font-size: 15px;
+        margin-left: 7px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        height: 583px;
+        text-align: left;
+    }
+
+    .jumbotron .display-4 {
+        font-weight: 600;
+        color: white;
+        font-size: 50px;
+        margin-top: 125px;
+    }
+    
+    .jumbotron .lead{
+        color: white;
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    /* Deskripsi */
+
+    .isi {
+        margin-top: 160px;
+    }
+
+    .isi h2{
+        font-weight: bolder;
+        font-size: 45px;
+    }
+
+    .isi p {
+        font-weight: 500;
+        color: black;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .isi img {
+        margin-left: 50px;
+        margin-top: -70px;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    /* Roles */
+    .roles {
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .roles h1{
+        font-size: 43px;
+        font-weight: 700;
+    }
+
+    .roles h3{
+        font-size: 30px;
+    }
+
+    .bawah a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .role:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #EC2128 ;
+        width: 30%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+    }
+
+    .volunteer {
+        margin-top: 100px;
+    }
+
+    .volunteer h1 {
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .volunteer h2 {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .volunteer p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .volunteer img {
+        margin-left: 50px;
+        margin-top: -70px;
+        height: 330px;
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    /* FAQ */
+    #section-faq {
+        background-color: #ffff;
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    #section-faq h1 {
+        font-weight: 900;
+        font-size: 34px;
+        text-align: center;
+        padding: 20px 0 50px 0;
+    }
+
+    .accordion .card {
+        border-radius: 0;
+        background: none;
+        border-left-width: 0;
+        border-right-width: 0;
+    }
+
+    .accordion .card .card-header {
+        background: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 0;
+    }
+
+    .accordion .card-header h2 {
+        font-size: 1rem;
+    }
+
+    .accordion .card-header .btn {
+        color: #0c7f90;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .accordion .card-header i {
+        font-size: 1.3rem;
+        position: absolute;
+        top: 15px;
+        right: 1rem;
+    }
+
+    .accordion .card-body {
+        color: #666;
+    }
+
+    /* Pertanyaan */
+    .question {
+        text-align: center;
+        margin-top: 500px;
+    }
+    
+    .info-question {
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;  
+        background-color: white;
+    }
+    
+    .question .ques h4{
+        margin-top: 10px;
+        font-weight: 650;
+        font-size: 30px;
+    }
+    
+    .question .ques p{
+        margin-top: 10px;
+        font-size: 18px;
+        color: #7C8087;
+    }
+    
+    .question .ques img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .tombol {
+        border-radius: 40px;
+        font-weight: 700;
+        background-color: #52CE5F;
+        width: 200px;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    footer {
+        background-image: url(img/ellipse.png);
+        margin-left: auto;
+        margin-right: auto;
+        height: 850px;
+        width: 100vw;
+        font-family: "Open Sans";
+        padding-top: 200px;
+        color: white;
+        margin-top: -100px;
+        background-size: cover;
+    }
+    
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-item{
+        text-align: center;
+    } 
+
+    .footer-content h4{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+    
+    .footer-content img{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        display: inline-block;
+    }
+    
+    .footer-content .gambar {
+        margin-top: 40px;
+    }
+    
+    .footer-content h3{
+        font-size: 23px;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    
+    .footer-content .bawah-footer img{
+        font-size: 23px;
+        margin-top: 30px;
+        width: 307px;
+        height: 106px;
+    }
+    
+    .footer-botton h5{
+        margin-top: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+}
